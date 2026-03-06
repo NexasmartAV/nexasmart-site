@@ -44,7 +44,7 @@ color:#ffffff;
 
 .hero{
 height:100vh;
-background:url('https://images.unsplash.com/photo-1593642532973-d31b6557fa68') center/cover;
+background:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -80,10 +80,11 @@ margin-bottom:30px;
 .cta{
 display:inline-block;
 background:#2563eb;
-padding:15px 40px;
+padding:16px 40px;
 border-radius:6px;
 color:white;
 text-decoration:none;
+font-size:16px;
 transition:0.3s;
 }
 
@@ -151,4 +152,5 @@ padding:14px 20px;
 border-radius:30px;
 text-decoration:none;
 font-size:14px;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
 }
