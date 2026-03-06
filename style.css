@@ -1187,17 +1187,7 @@ z-index: 2;
 }
 
 .hero .eyebrow {
-display: block;
-width: 100%;
-max-width: 340px;
-margin: 10px 0 18px;
-font-size: 11px;
-letter-spacing: 1.4px;
-line-height: 1.5;
-padding: 0 4px 0 0;
-text-align: left;
-white-space: normal;
-overflow-wrap: anywhere;
+display: none;
 }
 }
 
