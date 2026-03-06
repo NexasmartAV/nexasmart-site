@@ -1188,15 +1188,15 @@ z-index: 2;
 
 .hero .eyebrow {
 display: block;
-width: min(100%, 320px);
-margin: 0 auto 18px;
+width: 100%;
+max-width: 340px;
+margin: 10px 0 18px;
 font-size: 11px;
 letter-spacing: 1.4px;
 line-height: 1.5;
-padding: 0 12px;
+padding: 0 4px 0 0;
 text-align: left;
 white-space: normal;
-max-width: 100%;
 overflow-wrap: anywhere;
 }
 }
@@ -1270,12 +1270,13 @@ padding: 0;
 
 .hero {
 min-height: auto;
-padding: 152px 0 88px;
+padding: 176px 0 88px;
 background-position: 62% center;
 }
 
 .hero-content {
 max-width: 100%;
+padding-top: 8px;
 }
 
 .hero h1 {
@@ -1382,7 +1383,7 @@ min-height: 42px;
 
 @media (max-width: 520px) {
 .hero {
-padding-top: 148px;
+padding-top: calc(172px + env(safe-area-inset-top));
 }
 
 .section h2 {
